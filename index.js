@@ -1,6 +1,6 @@
 const twilio = require('twilio');
 const accountSid = 'AC817f3948584648749d09e77ded759a94';
-const authToken = '57acf90aad1be2ed99a0744284e86d2e';
+const authToken = '57acf90aad1bed99a0744284e86d2e';
 const client = new twilio(accountSid, authToken);
 
 // Function to send IVR call
